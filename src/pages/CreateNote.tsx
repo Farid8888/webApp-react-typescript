@@ -45,7 +45,6 @@ const CreateNote =()=> {
    }
 
    const [valState,dispatch] = React.useReducer(reducer,initialState)
-console.log(valState.signVal,value.sign.length)
   React.useEffect(() => {
     setLoading(true);
     fetch(`https://worldtimeapi.org/api/timezone`)

@@ -1,6 +1,6 @@
-import { store } from './index';
 import {createSlice,PayloadAction} from "@reduxjs/toolkit"
 import {Note} from '../types/type'
+
 
 
 type ValObj={

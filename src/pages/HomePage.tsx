@@ -27,8 +27,7 @@ const BasicTabs=()=> {
         "create":0,
         "notes":1
     }
-   console.log(pageName)
-    console.log(pageObjectNumber[pageName])
+ 
   const [page, setPage] = React.useState(pageObjectNumber[pageName]);
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
      navigate(`/${pageObjectName[newValue]}`)
