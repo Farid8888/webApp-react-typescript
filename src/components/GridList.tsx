@@ -14,6 +14,7 @@ import { NoteArr } from "../types/type";
 
 const GridList:React.FC<NoteArr> = ({ notes}) => {
   const location = useLocation();
+
   const [value, setValue] = React.useState(
     parseInt(location.search?.split("=")[1]) || 1
   );
